@@ -178,6 +178,28 @@ Protocolos de Recibo Seguro(Secure Receipt Protocols)
 Blockchain
 
 
+O que são  mecanismos de segurança específicos
+Podem ser incorporados à camada de protocolo apropriada a fim de oferece alguns dos serviços de segurança OSI
+
+Cite tipos de segurança específicos
+Cifragem
+Assinatura digital
+Controle de acesso
+Integridade de Dados
+Troca de informações de autenticação
+Preenchimeto de tráfego
+
+
+O que são mecanismos de segurança pervasivos
+Mecanismos que não são específicos a qualquer serviço de segurança OSI ou camada de protocolo específica
+
+Cite tipos de segurança pervasivos
+Funcionalidade confiável
+Rótulo de segurança
+Detecção de evento
+Registros de auditoria de segurança
+recuperação de segurança
+
 
 
 
