@@ -200,6 +200,21 @@ Detecção de evento
 Registros de auditoria de segurança
 recuperação de segurança
 
+Quais são os principais mecanismos que os algorítimos eficientes de incriptação usam para gerar textos
+criptografados?
+difusão,  confusão
+
+Quais são as principais operações que o algorítimo de incriptação AES usa?
+byteSub, ShiftRows, MixColumns e AddRoundKey
+
+Como o AES opera sobre blocos de 128 bits como é feito para operar com mensagens maiores?
+Através de Modo de operação, que permite mensagens com tamanhos diferentes de blocos, são eles
+ECB, CBC,CFB,OFB CTR(confidencialidade)
+LRW, XEX, EME (cifração setorial para disco)
+OCB, CCM, EAX, GCM(confidencialidade ingtegridade e também autenticidade)
+
+
+
 
 
 
