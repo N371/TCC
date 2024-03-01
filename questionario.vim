@@ -1,3 +1,5 @@
+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
+
 Quais os dois tipos principais de ataques cibernéticos?
 1)Ataques Passivos;
 2)Ataques Ativos;
@@ -213,8 +215,34 @@ ECB, CBC,CFB,OFB CTR(confidencialidade)
 LRW, XEX, EME (cifração setorial para disco)
 OCB, CCM, EAX, GCM(confidencialidade ingtegridade e também autenticidade)
 
+Quais as principais qualidades de um bom hash?
+Resistência a Inversão primeira inversão
+Resistência a Inversão segunda  inversão
+Resistência a Colisão
+
+Quais os principais algoritmos para hash
+SHA-2
+SHA-3
+
+Porque o MD5 não é uma boa opção de hash
+Porque não tem resistência efetiva contra colisão
+
+Principais características dos hashs
+integridade, autenticidade confidencialidade
+
+O que é um código de autenticação de mensagens
+um rach que não pode ser calculado por qualquer pessoa
+só em determinado contexto.
+
+Quais os principais algorítmos para autenticação de mensagens
+CMAC
+HMAC
+AEAD
 
 
+Quais combinam  intregidade, autenticidade e confidencialidade
+CMAC,HMAC  intregridade e autenticidade
+AEAD,GCM integridade autenticidade confidencialidade
 
 
 
