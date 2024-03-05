@@ -245,6 +245,69 @@ AEAD
 CMAC,HMAC  intregridade e autenticidade
 AEAD,GCM integridade autenticidade confidencialidade
 
+43)Qual a diferença modo bridge e modo NAT?
+modo bridge recebe endereçamento de placa de rede
+o Nat rodando em maquina virtual recebe o endereço
+da máquina virtual.
+
+44) Defina um algoritmo para configuração server debian:
+(a1)-Baixe o iso debian
+(a2)-Inicie a máquina virtual
+(a3)-No menu de instalação não escolha gráfica mas sim Install
+(a4)-Definir o idioma Portugues;
+(a5)-Configurar a Rede
+(a6)-Nomear a máquina(hostname)
+(a7)-Definir as senhas de root e usuário
+(a8)-Particionar os Discos
+(a9)-Escolher opção manual
+(a10)-Escolher o disco listado
+(a11)-Particionar disco
+(a12)-Entrar na opção de configturar o genciador de volumes logics 
+(a13)-Criar grupod e volumes
+(a14)-Nomear o grupo de volumes - raiz
+(a15)-Criar volume lógico - lvraiz
+(a16)-repetir a operação para quantos volumes lógicos existirem
+(a17)-Entrar na partição criada
+(a18)-Usar Como - ext4
+(a19)-Ponto de montagem - home
+(a20)-Repetir para outras partições
+(a21)-Configurar o geerenciador de pacotes
+(a22)-Definir pais
+(a23)-Escolher um repositorio - ftp.br.debian.org
+(a24)-passar o proxy
+(a25)-não configurar o popularity-context
+(a26)-selecionar softwares que irão ser usados
+(a27)-Servidor de ssh
+(a28)-Utilitários de sistema padrão
+(a29)-Carregar inicialização grub /dev/sda
+(a30)-Finalizar instalação
+(a31)-Na maquina virutal em sistemas definir Disco Rigido
+(a32)-Na maquina virtual em Rede Adaptador1 definir conextado em "Bridge" Modo promiscuo permitir tudo
+(a33)-Na máquina virtual em Rede Adaptador2 definir contexto em "Rede interna" Nome intnet
+(a34)-Entrar no servidor login como root e senha
+(a35)-instalar o vim
+(a36)-ip addr show
+(a37)-vim /etc/hostname  para consultar o nome da máquina mudando debian para server
+(a38)-mudar o nome da máquina  hostname -F /etc/hostname
+(a39)-consultar dados gerais vim /etc/hosts
+(a40)-mudar os hosts para   localhost, e server.home.lan <>  server
+(a41)-consultar hostnames (--short,--domain,--fqdn,--ip-address,ip -4 address)
+(a42)-configurar  vim /etc/network/interfaces
+(a43)-comente as linhas allow-hotplug enp0s3 iface enpOs3 inet dhcp
+(a44)-configure o dhcp - estática -  auto enp0s3, iface enp0s3 inet static  addresss  192.168.15.10
+     netMask 255.255.255.0  network 192.168.15.0  broadcast 192.168.15.255 gatway 192.168.15.1
+(a45)-vim /etc/resolv.conf  domain  home.lan search home.lah nameserver 192.168.15.1  reboot
+(a46)-ip -4 a, teste o ip   ping -c3 www.debian.org
+(a47)-systemctl status ssh, para ver serviço ativo: editando arquivo ssh:  
+(a48)-vim /etc/apt/sources.list  adicionar a seguinte linha deb http://deb.debian.org/debian/ buster main contrib non-free
+(a49)-segue update
+(a50)-segue apt-get dist-upgrade
+(a51)-Fazendo clone da máquina -> Na maquina  Clonar,  clone linkado
+
+
+
+(45)-Algoritmo para configuração servidor debian  para ssh sem senha, 
+
 
 
 
