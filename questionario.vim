@@ -282,7 +282,7 @@ da máquina virtual.
 (a29)-Carregar inicialização grub /dev/sda
 (a30)-Finalizar instalação
 (a31)-Na maquina virutal em sistemas definir Disco Rigido
-(a32)-Na maquina virtual em Rede Adaptador1 definir conextado em "Bridge" Modo promiscuo permitir tudo
+ea32)-Na maquina virtual em Rede Adaptador1 definir conextado em "Bridge" Modo promiscuo permitir tudo
 (a33)-Na máquina virtual em Rede Adaptador2 definir contexto em "Rede interna" Nome intnet
 (a34)-Entrar no servidor login como root e senha
 (a35)-instalar o vim
