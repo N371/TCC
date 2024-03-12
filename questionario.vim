@@ -361,6 +361,20 @@ linuxCrash 12) Configure the config file for the access remote with ssh with nam
 linuxCrash 13) how to access using ssh config?
 ssh myserver
 
+linuxCrash 14) show the ssh public and private key generate algorithm :
+(1)in de .ssh directory have a four file
+(2)ssh-keygen
+(3)enter
+(4)it show the "Enter file in which to save the key (...)" enter
+(5)Enter passphrase
+(6)Enter passphase again
+(7)The id_rsa.pub will contain the public key
+(8)The id_rsa contains the private keys
+(9)Copy the public key on the clipboard
+(10)Go to the server
+(11)edit the autrhorized_keys into the .ssh directory
+(12)past the bublic key in this file
+(13)
 
 
 
@@ -397,6 +411,27 @@ além, para além de, Mais que, acima de
 
 ingles 011) what means de TROUBLESHOOTING word?
 solução de problemas
+
+ingles 012) what means de EVEN word?
+Até mesmo,
+Até ela/ele!!!
+Mesmo (em contradição)
+Even (sequer)
+Ainda melhor
+Evenly, uniformemente
+Par
+
+ingles 013) what means the follow expression:  now the downside to that though...
+o lado ruim disto no entanto...
+
+ingles 014) what means the follow expression? right in no problem  .
+Certamente, pode entrar
+
+ingles 015)  what means the follow expression?   jot all of this down.
+anota pra não esquecer.
+
+
+
 
 
 
