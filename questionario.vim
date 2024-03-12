@@ -311,8 +311,92 @@ gerais (45)-Algoritmo para configuração servidor debian  para ssh sem senha,
 comunicação 001
 
 
+linuxCrash 01) Show the usb ports command?
+lsusb
+
+linuxCrash 02) When to use "watch -d lsusb"?
+the watch -d lsusb is used whan we need to repeat each 2 seconds
+all results for  lsusb -d options list only diferences others lists.
+
+linuxCrash 03) When and how to use the lsusb -t command and option?
+the command lsusb witch option -t  show the same itens of list the
+watch -d lsusb, but this in tree list.
+
+linuxCrash 04) Whan I need use the  lspci command?
+I use lspci comman when I need to show the list of information
+about the hardware context in operation sistem.
+
+linuxCrash 05) How to use the lshw command?
+in the command line type lshw, 
+it gona be show you several information about 
+hardware conected in your pc.
 
 
+linuxCrash 06) How to repeat the last command executed?
+type sudo !!
+
+linuxCrach 07) I neet show the information about system in the html file
+what command I use?
+sudo lshw -html >> arquivo.html
+
+linuxCrash 08) And if I want to get a short information about my system?
+when I can use the sudo lshw -short
+
+linuxCrash 09) I wanto to list de storage, what command I use?
+the list of storage can be obtained through lsblk command.
+
+linuxCrash 10) If your system don't have the open ssh intaled, how to install it?
+apt search openssh-client
+
+linuxCrash 11) What the files is locate in ssh directory?
+id_ed25519, id_ed25519.pyb and known_hosts
+
+linuxCrash 12) Configure the config file for the access remote with ssh with name server.
+(1)vim config insider the ssh directory
+(2)Host myserver(ident next lines)
+(3)Hostname xxx.xxx.x.xx
+(4)Port 22
+(5)User root
+
+linuxCrash 13) how to access using ssh config?
+ssh myserver
+
+
+
+
+
+ingles 001)what means FURTHER?
+mais do que isto - 
+
+ingles 002)what means REGARDING?
+a respeito de, a cerca de context depends
+
+ingles 003) what means FOTAGE?
+se revere a senas ou video
+
+ingles 004) what means dash?
+dash significa traço
+
+ingles 005) what means actualy?
+na verdade
+
+ingles 006) what means wiping?
+esfregar, enxugar, limpar, apagar
+
+ingles 007) what means eager?
+ancioso, animado para...
+
+ingles 008) what means the foremost word?
+primeiramente, antes de mais nada, acima de tudo
+
+ingles 009) what means the  walkthrough word?
+tutorial
+
+ingles 010) what means the BEYOND word?
+além, para além de, Mais que, acima de
+
+ingles 011) what means de TROUBLESHOOTING word?
+solução de problemas
 
 
 
