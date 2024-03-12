@@ -281,7 +281,7 @@ gerais 44) Defina um algoritmo para configuração server debian:
 (a29)-Carregar inicialização grub /dev/sda
 (a30)-Finalizar instalação
 (a31)-Na maquina virutal em sistemas definir Disco Rigido
-ea32)-Na maquina virtual em Rede Adaptador1 definir conextado em "Bridge" Modo promiscuo permitir tudo
+(a32)-Na maquina virtual em Rede Adaptador1 definir conextado em "Bridge" Modo promiscuo permitir tudo
 (a33)-Na máquina virtual em Rede Adaptador2 definir contexto em "Rede interna" Nome intnet
 (a34)-Entrar no servidor login como root e senha
 (a35)-instalar o vim
@@ -306,7 +306,16 @@ ea32)-Na maquina virtual em Rede Adaptador1 definir conextado em "Bridge" Modo p
 
 
 gerais (45)-Algoritmo para configuração servidor debian  para ssh sem senha, 
-
+gerais (46)- Instalando servidor nginx no debian
+(b01) add user into sudoers user ALL=(ALL) ALL  command visudo no root
+(b02) update and upgrade
+(b03) sudo apt install ufw
+(b04) sudo ufw enable
+(b05) sudo apt install nginx
+(b06) sudo systemctl status nginx
+(b07) sudo ufw allow 'Nginx HTTP'
+(b08) sudo ufw allow 'Nginx HHTPS'
+(b09) access Nginx in the server ip port
 
 comunicação 001
 
@@ -374,10 +383,13 @@ linuxCrash 14) show the ssh public and private key generate algorithm :
 (10)Go to the server
 (11)edit the autrhorized_keys into the .ssh directory
 (12)past the bublic key in this file
-(13)
+(13)command to made a copy to the file with a public key into the root user 
+    in the server -   ssh-copy-id -i ~/.ssh/id_rsa.pub root@id
 
 
-
+linuxCrash 15) How to create the unique key to the several costumers?
+ssh-keygen -t ed25519 -C "acme"  obs the ed25519 the name of de file in the .ssh directory
+the file name is a compose of key word and name of file and id.
 
 ingles 001)what means FURTHER?
 mais do que isto - 
