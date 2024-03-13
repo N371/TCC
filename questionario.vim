@@ -1,4 +1,5 @@
-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
+
+p_CLNkJSdoQ4B4wGK5svpRrwmXnPowy90aPeOE
 
 
 seginf 01)Quais os dois tipos principais de ataques cibernéticos?
@@ -441,6 +442,78 @@ Certamente, pode entrar
 
 ingles 015)  what means the follow expression?   jot all of this down.
 anota pra não esquecer.
+
+
+comunicação 01)Como surge a escrita?
+Como meio de comunicação,
+comunicação 02)O surgimento da escrita está vinculada a que processo?
+Está vinculada mais aos símbolos representação da linguagem falada e não da representação do pensamento
+comunicação 03)Quais as características necessárias da linguagem escrita?
+eficiente, que todos entendam, não pode ser oneroso, geral, economico
+comunicação 04)diferença entre coesão e coerencia:
+coesão e coerência sempre se referem a texto,  coesão tem a ver com estrutura
+coerẽncia tem a ver com sentido do texto
+comunicação 05)Quais os sete critérios de textualidade?
+Coesão Coerencia Informatividade Situacionalidade Intertextualidade, Aceitabilidade, Intencionalidade
+comunicação 06)Quais principais mecanismos de Coesão?
+Referência, Substituição Elipse Conjunção e Lexical
+comunicação 07)O que é referencia e quais os principais tipos?
+referência é que faz mensão a outros itens do texto, pode ser anterior anafora e posterior catáfora
+comunicação 08)Quais as palavras que tipicamente fazem referencia
+pronomes pessoais,  prossessivos e demosntrativos e adverbios
+comunicação 09)O que é a substituição?
+Colocar um item no lugar de outro de uma palavra de uma frase de um periodo inteiro
+comunicação 10)O que é a elipse?
+é a substituição por zero, o elemento pode ser recuperado pelo texto
+comunicação 11)o que é conjunção?
+Conectores que estabelecem relações especificas entre itens do texto
+aditiva adversativas causais temporais continuativas
+comunicação 12)O que é o mecanismo Lexical
+substituição de um termo lexical por outro termo lexical...
+comunicação 13) o que é o principio da intepretabilidade?
+mecanismo de coerência que permite ao ouvinte ou leitor recuperar o sentido da frase
+comunicação 14) o que é o principio de inteligibilidade
+o texto tem que ser inteligivel
+comunicação 15) O que é situação de comunicação
+e a comunicação feita dentro de um contexto
+comunicação 16) quais os quatro principais itens da coerência?
+Manutenção temática ou continuidade
+Progresão 
+Articulação
+Não contradição
+
+Comunicação 17)Quais os principais problemas de coesão referencial sequencial
+e com a coerência?
+Repetição de pronomes
+uso de tempos verbais indadequados
+referencias inexistentes
+sem relação entre informações
+Comunicação 18) Quem foi que associou a innformatividade a teoria da informação?
+Beaugrande e dressler
+Comunicação 19) Quais são os niveis de informatividade?
+Nivel1 Placas,Letreiros e Mapas
+Nivel2 Textos literários mais elaborados 
+Nivel3 Textos que demandam esforço cognitivo do leitor, elaborados com caracter científicos.
+
+Comunicação 20) O que é informatividade
+relação a quantidade de informações novas que são colocadas para o leitor
+
+Comunicação 21) Qual o objetivo de escrever?
+Dilaar as ideias fracas, Obscurecer os raciocinios e inibir a clareza.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
