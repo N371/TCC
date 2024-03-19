@@ -392,6 +392,12 @@ linuxCrash 15) How to create the unique key to the several costumers?
 ssh-keygen -t ed25519 -C "acme"  obs the ed25519 the name of de file in the .ssh directory
 the file name is a compose of key word and name of file and id.
 
+linuxCrash 16) Ho to use ssh-keygen to generate the short public key?
+ssh-keygen -t ed25519 -C "acme"
+
+
+
+
 ingles 001)what means FURTHER?
 mais do que isto - 
 
@@ -442,6 +448,13 @@ Certamente, pode entrar
 
 ingles 015)  what means the follow expression?   jot all of this down.
 anota pra não esquecer.
+
+ingles 016) Não era tão malditamente grande. traduza para inglês:
+wasn't so darn big
+
+ingles 017) cabia perfeitamente:
+then all of this would fit neatly
+
 
 
 comunicação 01)Como surge a escrita?
