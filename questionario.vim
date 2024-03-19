@@ -17,7 +17,7 @@ seginf 03)Defina X.800
 Recomendação da ITU(International Telecommunication Union)
 define um conjunto de protocolos e serviços para redes de comunicação de dados
 
-seginf 04)A X.800 divede serviços em 5 categorias e quatorze serviços específicos, liste
+seginf 04)A X.800 divide serviços em 5 categorias e quatorze serviços específicos, liste
 1)Autenticação
 2)Controle de acesso
 3)Confidencialidade de Dados
@@ -512,7 +512,68 @@ Comunicação 20) O que é informatividade
 relação a quantidade de informações novas que são colocadas para o leitor
 
 Comunicação 21) Qual o objetivo de escrever?
-Dilaar as ideias fracas, Obscurecer os raciocinios e inibir a clareza.
+Dilatar as ideias fracas, Obscurecer os raciocínios lógicos e inibir a clareza.
+
+PlatIngDat 01) Como fazer a instalação do home assistant no docker.
+(1)KVM
+(2)Hyper-V
+(3)VirtualBox
+
+PlatIngDat 02) Configure container docker para homeassistance:
+(1) docker run -d --name homeassistant --privileged --restart=unless-stopped -p 8123:8123 -v homeassistant_config:/config --network=host ghcr.io/home-assistant/home-assistant:stable
+(2) Abra um browser com  http://localhost:8123
+(3) Configure
+
+PlatIngDat 03) O que é o Sonoff?
+É uma marca de interruptores Wi-Fi de baixo custo
+que pode ser usado para ocntralar dispositivos alimenados pela
+rede eletrica, como luzes, bombas, aquecedores, valvulas etc.
+
+PlatIngDat 04) O que vem no Sonoff?
+SP8285 ou SP8266
+módulo wifi
+e um relê
+
+PlatIngDat 05) O que vem a ser MQTT?
+Protocolo de mensagens de publicação e assinatura que tem 
+se tornado o protocolo de fato pra conectar dispositivos IOT
+
+PlatIngDat 06) O que é o DeviceFlashing?
+Processo de implantar firmeware novo no dispositivo
+
+PlatIngDat 07) O que é o Sonoff zigbee?
+é o mesmo mas usa um Texas Instruments CC2530
+
+PlatIngDat 08) Como é o nome do aparelho que controla todos os sensores sonoff zigbee?
+ZigBee Bridge
+
+PlatIngDat 09) Qual é o software alternativo para adm o zegbee?
+Tamota MQTT
+
+PlatIngDat 10) Os wify zegbee oficiais funcionam com que softwares,  EWelink
+Google HOme, Alexa, de forma natural.
+
+
+PlatIngDat 11) Qual a principal desvantágem dos softwares EWelink, Google Home
+e Alexa?
+precisam de uma conexão com a net
+Os mais novos R3 tem um modulo LAN e modo DIY
+Não suportão o MQTT	
+
+PlatIngdat 12) Qual a principal vantágem de se usar o Tasmota?
+é que usa o protocolo MQTT
+
+PlatIngDat 13) Controlar Sonoff com máquina virtual:
+(1) Baixar máquina virtual
+(2) Instalar versão de linux 2.6 / 3.x 4.x
+(3) Usar disco virtual .vdi
+(4) Ativar UEFI,
+(5) Em redes escolher adaptador de Bridge
+
+
+PlatIngDat 14) 
+
+
 
 
 
