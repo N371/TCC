@@ -571,7 +571,12 @@ PlatIngDat 13) Controlar Sonoff com máquina virtual:
 (5) Em redes escolher adaptador de Bridge
 
 
-PlatIngDat 14) 
+PlatIngDat 14) Condição necessária para home system funcione:
+que todos os aparelhos estejam na mesma rede.
+
+PlatIngDat 15) O que é necessário para usar o amazon como provedor de ITO?
+ter uma conta
+ter créditos
 
 
 
