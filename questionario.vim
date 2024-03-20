@@ -28,25 +28,6 @@ seginf 05)Quais os tipos de Autenticação
 1)Autenticação de entidade par
 2)Autenticação da origem de dados
 
-seginf 06)Confidencialidade de dados pode ser dividido em 4 pontos liste
-1)Confidencialidade da conexão
-2)Confidencialidade sem conexão
-3)Confidencialidade por campo selecionado
-4)Confidencialidade do fluxo de tráfego
-
-
-seginf 07)Como pode ser dividida a Integridade de dados
-1)Integridade da conexão com recuperação
-2)Integriade da conexão sem recuperação
-3)Integridade da conexão com campo selecionado
-4)Integridade sem conexão
-5)Integridade sem conexão dom campo seletivo
-
-
-seginf 08)Como pode ser dividida a Irretratabilidade
-1)Irretratabilidade de Origem
-2)Irretratabilidade de Destino
-
 seginf 09)Dê exemplo de autenticação de entidade par
 (peer entity authentication) processo pelo qual duas entidades
 verificam a identidade uma da outra.
@@ -70,6 +51,12 @@ Verificação da Assinatura
 Comparação dos Resumos
 Verificação da Autenticidade.
 
+seginf 06)Confidencialidade de dados pode ser dividido em 4 pontos liste
+1)Confidencialidade da conexão
+2)Confidencialidade sem conexão
+3)Confidencialidade por campo selecionado
+4)Confidencialidade do fluxo de tráfego
+
 seginf 12)Protocolos usados na confidencialidade da conexão
 TLS(Transport Layer Security)/SSL(Secure Sockets Layer)
 IPsec(Internet Protocol Security) este pode ser usado para criação de VPNs
@@ -88,6 +75,17 @@ proteger apenas partes específicas de um conjunto de dados em vez de criptograf
 seginf 15)Quais os pontos chaves da confidencialidade por campo selecionado?
 Granularidade de Segurança, Flexibilidade e Desempenho, Chaves de Criptografia, Complexidade na Implementação
 Casos de Uso
+
+seginf 07)Como pode ser dividida a Integridade de dados
+1)Integridade da conexão com recuperação
+2)Integriade da conexão sem recuperação
+3)Integridade da conexão com campo selecionado
+4)Integridade sem conexão
+5)Integridade sem conexão dom campo seletivo
+
+seginf 08)Como pode ser dividida a Irretratabilidade
+1)Irretratabilidade de Origem
+2)Irretratabilidade de Destino
 
 seginf 16)Defina Granularidade de Segurança
 Confidencialidade por campo oferece granularidade mais fina de segurança, permitindo que somente campos de 
@@ -579,8 +577,63 @@ ter uma conta
 ter créditos
 
 
+PlatIngDat 14) Quais são principais mecanismos apresentados pela amazon?
+AWS IoT Events
+AWS IoT SiteWise
+AWS IoT Analytcs
+AWS IoT Things Graph
+AWS IoT Device Management
+AWS IoT Device Defender
+AWS IoT Core
+AWS IoT Greengrass
+AWS IoT FreeRTOS
+AWS IoT Device SDK
+AWS IoT Device Tester
 
+PlatIngDat  15) O Que é AWS IoT Events
+É um serviço que ajuda no monitoramento de eventos
+APlatIngDat 16) AWS IoT SiteWise
+É um serviço usado para recolher informações dispositivos industriais em alta escala
+APlatIngDat 17) AWS IoT Analytcs
+Serviço que simplifica processo de analisar dados coletados dos  dispositivos IOT
+APlatIngDat 18) AWS IoT Things Graph
+ferramenta oferecida pela amazon  criada para facilita o desenvolvimento de aplicações IOT
+APlatIngDat 19) AWS IoT Device Management
+serviço auxilia no registro organização monitoramento remoto de dispositivos IOT elevada escala
+APlatIngDat 20) AWS IoT Device Defender
+é um serviço de segurança AWS IoT que permite auditar
+APlatIngDat 21) AWS IoT Core
+serviço de nuvem gertenciado que facilita a conexão e gerenciamento e a comunicação segura de dispositivos iot
+APlatIngDat 22) AWS IoT Greengrass
+São livrarias abstratas em java para criar interfaces gráficas
+APlatIngDat 23) AWS IoT FreeRTOS
+Sistema operacional leve e em tempo real projetato para microprocessadores que usam IOT
+APlatIngDat 24) AWS IoT Device SDK
+conjunto de bibliotecas de software que ajuda a conectar seus dispositivos iot
+APlatIngDat 25) AWS IoT Device Tester
+ferramenta para verificar se os dispositivos  atendem aos requisitos para funcionar com serviços AWS
 
+PlatIngDat 26) Quais os 4 elementos da Azure IoT?
+Clientes
+Operações
+Produtos Ativos
+Funcionários
+PlatIngDat 27) Quais os três componentes principais?
+Dispositivos, Comunicação e Serviços de Back-end
+
+PlatIngDAt 28) Quais são as três caterogias de serviços?
+PaaS, SaaS,  IaaS
+
+PlatIngDat 29) Dê exemplo de Paas:
+monitoramento remoto, simulação de dispositivos, manutenção preditiva
+PlatIngDat 30) Dê exemplo de Saas:
+permite iniciar o Azure com pouca experiência
+
+PlatIngDat 31)Quais os conjuntos de tecnologia que a azure envolve?
+Hub iot(comunicação bidirecional),  time series insight(armazenar, visualizar consultar grandes volumes), sphere(proteger)
+
+PlatIngDat 32) Quais os componentes básicos na visão da google?
+Device, Gateway, Cloud
 
 
 
