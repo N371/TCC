@@ -636,7 +636,65 @@ PlatIngDat 32) Quais os componentes básicos na visão da google?
 Device, Gateway, Cloud
 
 
+1) O que será discutido brevemente nesta aula em relação às plataformas que envolvem armazenamento, propagação e processamento de dados, dispositivos de Internet em nuvem?
+R1) Google Cloud IoT.
 
+2) Qual é a visão da Google em relação à Internet das Coisas (IoT) em seu ambiente computacional?
+R2) A visão da Google envolve o dispositivo, o gateway e a nuvem.
+
+3) Quais são os três principais blocos que compõem o ambiente da plataforma Google em relação à IoT?
+R3) Dispositivo, gateway e nuvem.
+
+4) Qual é a importância dos metadados de dispositivos na plataforma Google Cloud IoT?
+R4) Os metadados dos dispositivos são considerados importantes para coletar informações sobre os dispositivos conectados.
+
+5) Quais são os componentes que são levados em consideração pela plataforma Google Cloud IoT em relação à informação dos dispositivos?
+R5) Tipos de informação, metadados dos dispositivos, estado dos dispositivos, comandos desenvolvidos e questões de telemetria.
+
+6) Qual protocolo é destacado como sendo importante para o monitoramento de dispositivos na Internet das Coisas?
+R6) Simple Network Management Protocol (SNMP).
+
+7) Como a plataforma Google Cloud IoT lida com o processamento de dados dos dispositivos?
+R7) Ela envolve várias fases, incluindo conversão de dados, empacotamento, validação, classificação e agregação de dados.
+
+8) O que é considerado como parte importante do processamento de dados dos dispositivos na plataforma Google Cloud IoT?
+R8) O processamento dos dados dos dispositivos, não o processamento dos próprios dispositivos.
+
+9) Quais são algumas das fases naturais do processamento dos dados dos dispositivos após a fase de coleta?
+R9) Conversão de dados para um formato específico, empacotamento seguro, envio para a plataforma de análise de dados, validação e resumo dos dados.
+
+10) Por que é importante resumir os dados dos dispositivos durante o processamento?
+R10) Para reduzir o volume e eliminar detalhes indesejados, auxiliando na fase de análise dos dados.
+
+11) Quais são algumas das ações desenvolvidas pela plataforma Google Cloud IoT em relação ao processamento de dados dos dispositivos?
+R11) Empacotar, classificar, compactar, extrair e combinar dados em valores agregados.
+
+12) O que determina a velocidade do processamento de dados na plataforma Google Cloud IoT?
+R12) O tipo de processamento realizado e a capacidade dos dispositivos disponíveis.
+
+13) Qual é a abordagem da plataforma Google Cloud IoT para o desenvolvimento de ações relacionadas ao processamento de dados dos dispositivos?
+R13) Uma abordagem baseada em regras.
+
+14) Como a plataforma Google Cloud IoT tenta se posicionar após a análise realizada sobre o processamento de dados?
+R14) Como uma plataforma que busca desenvolver as ações identificadas durante a análise.
+
+15) Quais são os aspectos principais que compõem a complexidade do ambiente da Internet das Coisas (IoT), de acordo com o texto?
+R15) Os aspectos principais incluem a influência do hardware e do software, os requisitos de rede e os intermediários de dados gerados e coletados pelos sensores.
+
+16) Além da Google Cloud IoT, quais são outras plataformas mencionadas no texto que também se preocupam com a telemetria e o monitoramento constante dos dispositivos?
+R16) Aegis e AWS (Amazon Web Services).
+
+17) Qual protocolo é mencionado como sendo responsável pelo monitoramento de dispositivos na rede?
+R17) Simple Network Management Protocol (SNMP).
+
+18) Como o SNMP é usado na plataforma Google Cloud IoT?
+R18) É usado para identificar dispositivos, coletar metadados e facilitar o acesso aos dados armazenados.
+
+19) Por que é importante realizar uma validação dos dados dos dispositivos após a fase de coleta?
+R19) Para garantir que os dados atendam a um conjunto de regras estipuladas pelo usuário antes de serem processados e analisados.
+
+20) Além das ações específicas de processamento de dados, o que mais é mencionado como parte do papel da plataforma Google Cloud IoT?
+R20) O papel de indexar os metadados dos dispositivos para análises futuras e geração de insights.
 
 
 
