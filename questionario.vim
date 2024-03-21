@@ -636,20 +636,20 @@ PlatIngDat 32) Quais os componentes básicos na visão da google?
 Device, Gateway, Cloud
 
 
-1) O que será discutido brevemente nesta aula em relação às plataformas que envolvem armazenamento, propagação e processamento de dados, dispositivos de Internet em nuvem?
-R1) Google Cloud IoT.
+O que será discutido brevemente nesta aula em relação às plataformas que envolvem armazenamento, propagação e processamento de dados, dispositivos de Internet em nuvem?
+Google Cloud IoT.
 
-2) Qual é a visão da Google em relação à Internet das Coisas (IoT) em seu ambiente computacional?
-R2) A visão da Google envolve o dispositivo, o gateway e a nuvem.
+Qual é a visão da Google em relação à Internet das Coisas (IoT) em seu ambiente computacional?
+A visão da Google envolve o dispositivo, o gateway e a nuvem.
 
-3) Quais são os três principais blocos que compõem o ambiente da plataforma Google em relação à IoT?
-R3) Dispositivo, gateway e nuvem.
+Quais são os três principais blocos que compõem o ambiente da plataforma Google em relação à IoT?
+Dispositivo, gateway e nuvem.
 
-4) Qual é a importância dos metadados de dispositivos na plataforma Google Cloud IoT?
-R4) Os metadados dos dispositivos são considerados importantes para coletar informações sobre os dispositivos conectados.
+Qual é a importância dos metadados de dispositivos na plataforma Google Cloud IoT?
+Os metadados dos dispositivos são considerados importantes para coletar informações sobre os dispositivos conectados.
 
-5) Quais são os componentes que são levados em consideração pela plataforma Google Cloud IoT em relação à informação dos dispositivos?
-R5) Tipos de informação, metadados dos dispositivos, estado dos dispositivos, comandos desenvolvidos e questões de telemetria.
+Quais são os componentes que são levados em consideração pela plataforma Google Cloud IoT em relação à informação dos dispositivos?
+Tipos de informação, metadados dos dispositivos, estado dos dispositivos, comandos desenvolvidos e questões de telemetria.
 
 6) Qual protocolo é destacado como sendo importante para o monitoramento de dispositivos na Internet das Coisas?
 R6) Simple Network Management Protocol (SNMP).
@@ -921,7 +921,128 @@ Claro, aqui estão as respostas correspondentes às questões:
 20. **Quais são os desafios futuros que o desenvolvimento de software enfrentará na busca por melhorar o ambiente?**
     - Alguns desafios incluem a necessidade de desenvolver soluções mais escaláveis, acessíveis e adaptáveis, garantir a segurança e privacidade dos dados, lidar com a obsolescência tecnológica e promover a colaboração global para resolver problemas ambientais
 
+O que é o OpenRemote e como ele se relaciona com o conceito de Midir?
 
+O OpenRemote é uma plataforma de IoT 100% código fonte aberto, adequada para os entusiastas de DIY (Do It Yourself). Ele se relaciona com o conceito de Midir como sendo outra plataforma dentro do ecossistema de Midir, oferecendo ferramentas para lidar com dados, interagir com dispositivos e analisar dados.
+Quais são as principais funcionalidades oferecidas pelo OpenRemote?
+
+O OpenRemote oferece funcionalidades para desenvolvimento, gerenciamento de ativos, rastreamento de veículos, sistemas de energia, construção de cidades inteligentes, entre outros ambientes. Também possibilita a criação de dashboards personalizados e a integração com nuvem computacional.
+Como a arquitetura do OpenRemote difere de outras plataformas, como o OpenHAB?
+
+A arquitetura do OpenRemote é mais modular e menos complicada do que a do OpenHAB. Ela é baseada em componentes simples, incluindo controlador, gerenciador, dispositivos e agentes.
+Qual é a importância da comunidade de desenvolvedores para o OpenRemote?
+
+A comunidade de desenvolvedores é importante para o OpenRemote pois contribui para o aprimoramento da plataforma, oferecendo suporte, desenvolvendo novas funcionalidades e compartilhando conhecimento.
+Quais são os benefícios de utilizar uma plataforma 100% código fonte aberto como o OpenRemote?
+
+Os benefícios incluem a liberdade para baixar, explorar e modificar o código fonte, além do suporte de uma comunidade de desenvolvedores ativa e a possibilidade de desenvolvimento de soluções personalizadas.
+Quais são os tipos de dispositivos que podem interagir com o OpenRemote?
+
+Diversos tipos de dispositivos podem interagir com o OpenRemote, incluindo sistemas de entretenimento, iluminação, energia, saúde, segurança, entre outros dispositivos IoT.
+Como a plataforma OpenRemote pode auxiliar no desenvolvimento de cidades inteligentes?
+
+O OpenRemote pode auxiliar no desenvolvimento de cidades inteligentes ao fornecer ferramentas para o gerenciamento de ativos, sistemas de energia, rastreamento de veículos e construção de soluções personalizadas para ambientes urbanos.
+Quais são as implicações de segurança mencionadas na utilização do OpenRemote?
+
+As implicações de segurança incluem a necessidade de gerenciamento de identidade, autenticação e autorização para interagir com usuários e dispositivos, seguindo padrões comuns de segurança em sistemas de autenticação.
+Qual é a função dos agentes no contexto do OpenRemote?
+
+Os agentes lidam diretamente com os dispositivos, sensores, atuadores e o banco de dados, sendo responsáveis pela recepção e propagação dos dados para as outras partes da plataforma.
+Como o OpenRemote lida com a persistência de dados?
+O OpenRemote utiliza um banco de dados OSHI CreeSQL baseado em tabelas para persistência de dados.
+
+Qual é a estrutura básica de ativos e atributos utilizada no OpenRemote?
+
+A estrutura básica envolve traduzir dispositivos conectados em um modelo de ativos e atributos, onde os ativos representam as "coisas" e os atributos representam suas características, como tempo de funcionamento e interações possíveis.
+Como o OpenRemote possibilita a criação de regras e análises de dados de forma amigável para usuários não técnicos?
+
+O OpenRemote oferece uma interface amigável que permite aos usuários não técnicos analisar dados, criar regras e dashboards personalizados sem precisar de conhecimento técnico avançado.
+Quais são os recursos disponíveis para desenvolvedores que desejam contribuir com o projeto OpenRemote?
+
+Os recursos incluem material de baixo nível para entender a estrutura da solução, documentação sobre como contribuir com o projeto e informações sobre o desenvolvimento de componentes para a plataforma.
+Como engenheiros podem utilizar o gerenciador do OpenRemote para configurar ativos?
+
+Engenheiros podem utilizar o gerenciador para conectar e configurar ativos, incluindo o gerenciamento de ativos, dados históricos, estado atual e processamento de regras.
+Quais são os principais módulos oferecidos pelo OpenRemote e suas funções?
+
+Os principais módulos incluem gestão de ativos, automatização de ações, visualização de dados e serviços de localização, permitindo a localização geográfica dos dispositivos.
+Como a localização geográfica dos dispositivos é utilizada no OpenRemote?
+
+A localização geográfica dos dispositivos permite que o usuário saiba a posição física dos ativos dentro do ambiente e possa interagir com eles com base nessa informação, como acionar dispositivos específicos ao entrar em uma determinada área.
+Qual é a ideia de múltiplos inquilinos e como ela é aplicada no OpenRemote?
+
+A ideia de múltiplos inquilinos refere-se à capacidade da plataforma de suportar vários usuários com mecanismos de acesso controlados. Isso permite que diferentes usuários acessem e controlem seus próprios conjuntos de dispositivos de forma segura.
+Quais são as opções de interface disponíveis para interagir com o OpenRemote?
+
+As opções de interface incluem aplicativos móveis, aplicativos desktop e uma interface web comum, proporcionando flexibilidade de acesso e controle para os usuários.
+Quais são as diferenças na persistência de dados entre o OpenRemote e o OpenHAB?
+
+O OpenRemote utiliza um banco de dados OSHI CreeSQL baseado em tabelas para persistência de dados, enquanto o OpenHAB pode usar outras abordagens de armazenamento, como bancos de dados estruturados.
+Como o banco de dados OSHI CreeSQL é utilizado pelo OpenRemote para armazenamento de dados?
+
+O banco de dados OSHI CreeSQL é utilizado para armazenar dados históricos, estado atual dos ativos e outros eventos relevantes para a plataforma, proporcionando uma base sólida para análises e processamento de dados.
+
+
+O que será abordado nesta última parte do tema sobre Midras na semana 5?
+
+Nesta última parte, serão abordados o Home Assistant e um pouco sobre o Dojo, uma plataforma brasileira para lidar com dispositivos e gerar dados.
+Qual é a plataforma brasileira discutida neste texto para lidar com dispositivos e gerar dados?
+
+A plataforma brasileira discutida é o Dojo, descrito como uma plataforma 100% brasileira para lidar com dispositivos e gerar dados que podem ser analisados.
+Como é descrito o modo de operação em relação aos Midwares neste contexto?
+
+O modo de operação consiste em introduzir os Midwares, descrever sua arquitetura, estrutura e como eles persistem dados, destacando que não há um padrão claro em relação à persistência de dados entre eles.
+Por que é mencionado que não existe um padrão em relação à persistência de dados nos Midwares discutidos?
+
+Não há um padrão porque diferentes Midwares podem persistir dados de maneiras distintas, o que pode causar problemas ao tentar intercambiar dados entre eles, exigindo uma análise cuidadosa do ambiente e dos dispositivos envolvidos para decidir qual Midware utilizar.
+Qual é a importância de definir o escopo do Midler ao escolher qual utilizar para um determinado contexto?
+
+É importante definir o escopo do Midler para analisar o ambiente, os dispositivos e as necessidades específicas, pois nem todos os Midlers têm as mesmas características e vantagens, sendo necessário escolher aquele mais adequado para o contexto.
+Quais são as características e funcionalidades do Home Assistant?
+
+O Home Assistant atua como um hub central de controle doméstico inteligente, integrando dispositivos de marcas distintas em um único local e proporcionando uma interface para interação e automação residencial.
+Quem é o desenvolvedor inicial do Home Assistant e quando foi iniciado o projeto?
+
+O Home Assistant foi iniciado por Paulo Schuster, em setembro de 2013, e publicado pela primeira vez no GitHub em novembro de 2013.
+Quais são as diferentes plataformas em que o Home Assistant pode ser instalado?
+
+O Home Assistant pode ser instalado em várias plataformas, incluindo computadores de placa única como Odroid e Raspberry, além de sistemas operacionais como Windows, MacOS e Linux, e também em máquinas virtuais.
+Como é descrita a comunidade brasileira que utiliza o Home Assistant?
+
+É descrita como uma comunidade ativa que visa desmistificar o uso do Home Assistant e oferece muito material em português para os usuários brasileiros.
+Qual é o foco principal do desenvolvimento do Home Assistant de acordo com o texto?
+O foco principal do desenvolvimento do Home Assistant é no usuário, priorizando a facilidade de uso e a interação com o ambiente doméstico.
+
+Quais são as opções de instalação do Home Assistant mencionadas no texto?
+As opções incluem a instalação em computadores de placa única, sistemas operacionais como Windows, MacOS e Linux, máquinas virtuais e até mesmo em containers Docker.
+
+Como é estruturado o sistema operacional do Home Assistant?
+O sistema operacional do Home Assistant é estruturado com um bootloader, um SOM Linux e um sistema de arquivo baseado em ZRAM e SquashFS, priorizando a segurança e fornecendo atualizações.
+
+Quais são as ações que o supervisor do Home Assistant permite aos usuários realizar?
+O supervisor permite aos usuários gerenciar a instalação, executar o núcleo do Home Assistant, atualizar o núcleo, fazer a restauração de backups e realizar outras ações relacionadas à configuração e manutenção.
+
+Como é descrita a integração do Home Assistant com dispositivos externos, como o aplicativo EweLink?
+O Home Assistant pode ser integrado com dispositivos externos, como o aplicativo EweLink, permitindo interações entre diferentes dispositivos e serviços em um único ambiente controlado pelo Home Assistant.
+
+Quais são os tipos de dispositivos que podem ser controlados pelo Home Assistant de acordo com o texto?
+O Home Assistant pode controlar uma variedade de dispositivos, incluindo lâmpadas, válvulas, televisões, ventiladores, set-top boxes de Smart TV, roteadores sem fio e muitos outros dispositivos que compartilham a mesma rede.
+
+Como o Home Assistant pode capturar dados de dispositivos como roteadores sem fio?
+O Home Assistant pode capturar dados de dispositivos como roteadores sem fio, monitorando o tráfego de rede, os dispositivos conectados e outros parâmetros relevantes para análise e automação.
+
+Quais são os benefícios e vantagens do Home Assistant em relação a outras plataformas semelhantes?
+Os benefícios incluem uma comunidade ativa, suporte para integração com uma variedade de dispositivos, foco na privacidade do usuário e uma interface intuitiva para interação e automação residencial.
+
+Quais são as divisões dos componentes do Home Assistant mencionadas no texto?
+Os componentes do Home Assistant incluem o sistema operacional (HAOS), o supervisor e o core, cada um desempenhando funções específicas na operação e manutenção da plataforma.
+
+Quais são as principais características de segurança incorporadas ao sistema operacional do Home Assistant?
+O sistema operacional do Home Assistant inclui recursos de segurança como PPArmor e configurações padrão seguras, garantindo um ambiente seguro para execução da plataforma e proteção dos dados do usuário.
+
+
+Quem é recomendado a usar a versão do supervisor do Home Assistant, de acordo com o texto?
+A versão do supervisor do Home Assistant é recomendada para usuários mais experientes e desenvolvedores que estão familiarizados com sistemas operacionais e instalação de aplicativos de middleware.
 
 
 
